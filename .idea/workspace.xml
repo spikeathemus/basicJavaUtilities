@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a980b09-55f5-466f-b59a-4e7af7f48d10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lists/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/VehicleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/VehicleMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a980b09-55f5-466f-b59a-4e7af7f48d10" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,8 +70,23 @@
       <updated>1674288837655</updated>
       <workItem from="1674288838926" duration="4175000" />
       <workItem from="1674302339061" duration="48000" />
-      <workItem from="1674580394362" duration="2336000" />
+      <workItem from="1674580394362" duration="2638000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1674582821665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674582821665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1674583030497</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674583030497</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +102,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
