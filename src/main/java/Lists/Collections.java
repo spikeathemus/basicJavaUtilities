@@ -7,8 +7,7 @@ public class Collections {
     public static void main(String[] args) {
         System.out.println("Collections before action: ");
     List<Integer> integers = Arrays.asList(0,1,1,2,3,4,5,6,6,6,7);
-    List<String> strings = new ArrayList<>(Arrays.asList("Hello"));
-    strings.add("World");
+    List<String> strings = new ArrayList<>(Arrays.asList("Hello", "World"));
     strings.add("Its");
     strings.add("Me");
 
