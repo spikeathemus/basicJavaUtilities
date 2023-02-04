@@ -2,7 +2,7 @@ package extendingSamples.Entities;
 
 public class Vehicle implements VehicleController{
 
-    public enum Color{Black, White, Blue, Red, Green};
+    public enum colorEnum{Black, White, Blue, Red, Green};
     private boolean isTurnedOn;
 
     private int fuel;
@@ -10,12 +10,12 @@ public class Vehicle implements VehicleController{
     private int speed;
     private Integer numberOfPassangers;
     private int fuelUsage;
-    //dodaj kolor do konsturktora
+    private colorEnum color;
 
-    public Vehicle(int maxTank, int speed, Integer numberOfPassangers, int fuelUsage) {
+    public Vehicle(int maxTank, int speed, Integer numberOfPassangers, int fuelUsage, colorEnum color) {
         this.fuel = maxTank;
 
-
+        this.color = color;
         this.maxTank = maxTank;
         this.speed = speed;
         this.numberOfPassangers = numberOfPassangers;
@@ -78,5 +78,65 @@ public class Vehicle implements VehicleController{
             this.fuel -= 20;
             System.out.printf("You actual speed is: $1 ,you are keeping up with the Rocket mode", this.speed);
         }
+        if(this.speed<=0){
+            stopTheVehicle();
+            System.out.println("The end");
+        }
+    }
+
+    public boolean isTurnedOn() {
+        return isTurnedOn;
+    }
+
+    public void setTurnedOn(boolean turnedOn) {
+        isTurnedOn = turnedOn;
+    }
+
+    public int getFuel() {
+        return fuel;
+    }
+
+    public void setFuel(int fuel) {
+        this.fuel = fuel;
+    }
+
+    public int getMaxTank() {
+        return maxTank;
+    }
+
+    public void setMaxTank(int maxTank) {
+        this.maxTank = maxTank;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public Integer getNumberOfPassangers() {
+        return numberOfPassangers;
+    }
+
+    public void setNumberOfPassangers(Integer numberOfPassangers) {
+        this.numberOfPassangers = numberOfPassangers;
+    }
+
+    public int getFuelUsage() {
+        return fuelUsage;
+    }
+
+    public void setFuelUsage(int fuelUsage) {
+        this.fuelUsage = fuelUsage;
+    }
+
+    public colorEnum getColor() {
+        return color;
+    }
+
+    public void setColor(colorEnum color) {
+        this.color = color;
     }
 }
