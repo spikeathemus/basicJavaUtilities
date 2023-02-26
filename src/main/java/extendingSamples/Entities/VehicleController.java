@@ -1,6 +1,9 @@
 package extendingSamples.Entities;
 
+import java.util.Scanner;
+
 public interface VehicleController {
+
     void turnOnTheEngine();
     void turnOffTheEngine();
     void tankUp();
@@ -10,5 +13,6 @@ public interface VehicleController {
     void stopTheVehicle();
     void slowDownTheVehicle();
     void rocketMode();
+
 
 }

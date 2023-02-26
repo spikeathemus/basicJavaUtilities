@@ -40,12 +40,12 @@ public class Vehicle implements VehicleController{
 
     @Override
     public void tankUp() {
-// dodaj przy dziedziczeniu max do baku
+        this.setFuel(this.maxTank);
     }
 
     @Override
     public void speedUp() {
-        //while fuel powyzej 0 predkosc +10 , spalanie *1.1
+        this.setSpeed(speed*2);
     }
 
     @Override
@@ -56,19 +56,19 @@ public class Vehicle implements VehicleController{
 
     @Override
     public void drive() {
-        //paliwo - actual spalanie
+    this.fuel =-10;
     }
 
     @Override
     public void stopTheVehicle() {
-        //jeśli speed 0 to już był, else redukuj speed o 0
+        this.setSpeed(0);
     }
 
     @Override
     public void slowDownTheVehicle() {
         this.speed = 0;
         System.out.println("the vehicle stopped");
-        //jeśli prędkość jest duża to motor się wywróci
+
     }
 
     @Override

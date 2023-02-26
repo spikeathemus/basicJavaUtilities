@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a980b09-55f5-466f-b59a-4e7af7f48d10" name="Changes" comment="initial commit">
+    <list default="true" id="9a980b09-55f5-466f-b59a-4e7af7f48d10" name="Changes" comment="enum added to constructor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/AdventureMode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Motorcycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/Entities/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/extendingSamples/VehicleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extendingSamples/VehicleMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +81,8 @@
       <workItem from="1674580394362" duration="2638000" />
       <workItem from="1674583089835" duration="53000" />
       <workItem from="1675529564515" duration="634000" />
-      <workItem from="1675530642042" duration="710000" />
+      <workItem from="1675530642042" duration="763000" />
+      <workItem from="1677411552156" duration="4194000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1674582821665</created>
@@ -99,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674583098097</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="enum added to constructor">
+      <created>1675531375585</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675531375585</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="enum added to constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="enum added to constructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

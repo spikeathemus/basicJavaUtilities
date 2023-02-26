@@ -28,7 +28,5 @@ public class Collections {
         }
         System.out.println("hashmap with values get form String List");
         System.out.println(hashMapExample);
-
-        //iteracja listy żeby była na odwrót
     }
 }
